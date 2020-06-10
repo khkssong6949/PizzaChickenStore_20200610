@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kr.co.hgney.pizzachickenstore_20200610.R
 
-class PizzaFragments : Fragment() {
+class PizzaFragments : BaseFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -19,6 +19,14 @@ class PizzaFragments : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+    }
+
+    override fun setupEvents() {
+
+    }
+
+    override fun setValues() {
+
     }
 
 }
