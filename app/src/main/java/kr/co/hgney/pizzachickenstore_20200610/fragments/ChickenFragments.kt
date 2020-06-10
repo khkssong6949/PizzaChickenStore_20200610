@@ -7,14 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kr.co.hgney.pizzachickenstore_20200610.R
 
-class PizzaFragments : BaseFragment() {
+class ChickenFragments : BaseFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.pizzafragment_layout, container, false)
+        return inflater.inflate(R.layout.chickenfragment_layout, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

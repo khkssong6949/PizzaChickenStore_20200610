@@ -7,14 +7,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/myTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
-    <fragment
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/storeViewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
